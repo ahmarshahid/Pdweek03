@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+main()
+
+{
+
+
+float vegetablesweight;
+float fruitsweight;
+float coinsfruit;
+float coinsvegetables;
+float totalpriceincoins;
+float totalpriceinrps;
+
+
+cout << " Enter the weight of vegetables : ";
+cin >> vegetablesweight ;
+
+cout << " Enter the price of vegetables in coins : ":
+cin >> coinsvegetables ;
+
+cout << " Enter the weight of fruits : ";
+cin >> fruitsweight;
+
+cout << " Enter the price of fruits in coins :";
+cin >> coinsfruits;
+ 
+totalpriceincoins =  (vegetablesweight*coinsvegetables) + (fruitsweight*coinsfruit);
+
+totalpriceinrps = 1.94*totalpriceincoins;
+
+
